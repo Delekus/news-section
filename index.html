@@ -1,0 +1,98 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту странницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>News Section</title>
+	<meta charset="UTF-8">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: cyan;
+		}
+		.container {
+			background-color: #fff;
+			max-width: 960px;
+			min-width: 320px;
+			margin: 50px auto;
+		}
+		.header {
+			padding: 20px;
+		}
+		.title {
+			font-size: 24px;
+		}
+		.archive {
+			float: right;
+			font-size: 18px;
+			padding: 5px;
+		}
+		.box {
+			width: 300px;
+			padding: 10px;
+			margin-bottom: 20px;
+			float: left;
+		}
+		.image {
+			width: 60px;
+			height: 60px;
+			float: left;
+			padding-right: 20px;
+		}
+		.data {
+			color: rgba(0,0,0,0.6);
+			padding-bottom: 10px;
+		}
+		.clear {
+			clear: both;
+		}
+	</style>
+</head>
+<!-- Отображает тело страницы -->
+
+<body>
+	<div class="container">
+		<div class="header">
+			<a class="archive" href="#">Показать весь архив</a>
+			<div class="title">Новости</div>
+		</div>
+
+		<div class="box">
+			<img class="image" src="img/oppo.jpg" alt="">
+			<div class="data">30 ноября 2023</div>
+			<a class="link" href="https://trashbox.ru/link/2023-11-03-oppo-a2" target="_blank">Представлен OPPO A2 - недорогой смартфон с 12 Гб ОЗУ</a>
+		</div>
+		<div class="box">
+			<img class="image" src="img/fatFest.jpg" alt="">
+			<div class="data">29 октября 2023</div>
+			<a class="link" href="https://trashbox.ru/link/2023-10-29-fan-fest-23" target="_blank">Прошел первый день фестиваля Fan-Fest</a>
+		</div>
+		<div class="box">
+			<img class="image" src="img/Chrome.png" alt="">
+			<div class="data">2 ноября 2023</div>
+			<a class="link" href="https://trashbox.ru/link/2023-11-02-android-7-ne-poluchit-obnovleniya-chr" target="_blank">Старые Android устройства больше не получат обновления Chrome</a>
+		</div>
+		<div class="box">
+			<img class="image" src="img/vestacross.jpg" alt="">
+			<div class="data">30 октября 2023</div>
+			<a class="link" href="https://trashbox.ru/link/lada-vesta-cross-obzor" target="_blank">Хотели как лучше.. Обзор Vesta cross</a>
+		</div>
+		<div class="box">
+			<img class="image" src="img/4g.jpg" alt="">
+			<div class="data">1 ноября 2023</div>
+			<a class="link" href="https://trashbox.ru/link/2023-11-01-za-4g-v-rossii-operatoram-pridyotsya-platit-v-10-raz-bolshe" target="_blank">Частоты 4G российским операторам выйдут дороже</a>
+		</div>
+		<div class="box">
+			<img class="image" src="img/gpt.png" alt="">
+			<div class="data">30 октября 2023</div>
+			<a class="link" href="https://trashbox.ru/link/2023-1030-chatgpt-nauchilsya-analizirovat-dokumenty" target="_blank">ChatGPT научился анализировать PDF и другие документы</a>
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+
+</html>
